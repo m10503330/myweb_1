@@ -1,0 +1,160 @@
+@charset "UTF-8";
+html
+{
+	font-size:62.5%;
+}
+*,*::before,*::after
+{
+box-sizing:border-box;
+}
+body
+{
+    padding:30px;
+    background-color:#fff7d2;
+	color:#333;
+	font-size:1.2rem;
+	font-family:"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+}
+a:link,a:visited,a:hover,a:active
+{
+columns: #7c5199;;
+text-decoration:none;
+}
+.header
+{
+    
+	padding: 10px 0px 10px;
+	background:url('../images/cat.gif') repeat-x;
+  
+    border-bottom:none;
+    text-align:center;
+}
+.footer
+{
+	width :100%;
+}
+.logo
+{
+	width:454px;
+	height:146px;
+	margin: 300px auto 0px;
+	
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+}.logo a
+{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.global-nav
+{
+	background-color:#9796967a;
+	margin-top:0px;
+	text-align:center;
+}
+.global-nav .nav-item
+{
+	
+	display:inline-block;
+	margin:0 10px;
+}
+.global-nav .nav-item a
+{
+	display:inline-block;
+	width:auto;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:8px;
+	color:#FF00FF;
+	font-size:2rem;
+	letter-spacing:10px;
+	transition: 0.4s;
+}
+.global-nav .nav-item.active a,
+.global-nav .nav-item a:hover
+{
+	background-color: #1cfdd8;
+	color:rgb(255, 48, 48);
+}
+
+
+
+
+.dissertation h1
+{
+    padding:30px;
+	font-size:5.6rem;
+    text-align:center;
+    line-height:4rem;
+}
+
+.dissertation h2
+{
+    padding:30px,30px,10px;
+	font-size:4rem;
+    text-align:center;
+    line-height:3rem;
+}
+.dissertation h3
+{
+    padding:30px,30px,10px;
+	font-size:3.5rem;
+    text-align:center;
+    line-height:3rem;
+}
+
+.dissertation p
+{
+    font-family:DFKai-sb;
+    padding:30px;
+	font-size:3rem;
+    text-align:left;
+    letter-spacing: 3px;
+    line-height:2.5rem;
+}
+
+.content .left, .content .center, .content .right { 
+    display: inline-block;
+    font-size: 16px; 
+    height: 200px; 
+    line-height: 200px;
+    text-align:center;
+ }
+ .content .left, .content .right ,.content .center 
+ { 
+   width: 33%; 
+ }
+th
+{
+    font-size: 3rem; 
+}
+
+ tr td
+ {
+    font-size: 2rem; 
+ }
+ .content .left2, .content .right2 { 
+    display: inline-block;
+    font-size: 16px; 
+    height: 200px;
+    text-align:center;
+ }
+ .content .left2, .content .right2 
+ { 
+   width: 45%; 
+ }
+
+ .dissertation a
+  {
+	color: #5451f3;
+  }
+
+ .dissertation a:hover
+  {
+	color: #f3114a;
+	background-color:rgba(128, 128, 128, 0.794);
+	font-size: 3.2rem;	
+  }

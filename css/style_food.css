@@ -1,0 +1,303 @@
+@charset "UTF-8";
+html
+{
+	font-size:62.5%;
+}
+*,*::before,*::after
+{
+box-sizing:border-box;
+}
+body
+{
+    padding:30px;
+    background-color:#fff7d2;
+	color:#333;
+	font-size:1.2rem;
+	font-family:"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+}
+a:link,a:visited,a:hover,a:active
+{
+columns: #7c5199;;
+text-decoration:none;
+}
+.header
+{
+    
+	padding: 10px 0px 10px;
+	background:url('../images/cat.gif') repeat-x;
+  
+    border-bottom:none;
+    text-align:center;
+}
+.footer
+{
+	width :100%;
+}
+.logo
+{
+	width:454px;
+	height:146px;
+	margin: 300px auto 0px;
+	
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+}.logo a
+{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.global-nav
+{
+	background-color:#9796967a;
+	margin-top:0px;
+	text-align:center;
+}
+.global-nav .nav-item
+{
+	
+	display:inline-block;
+	margin:0 10px;
+}
+.global-nav .nav-item a
+{
+	display:inline-block;
+	width:auto;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:8px;
+	color:#FF00FF;
+	font-size:2rem;
+	letter-spacing:10px;
+	transition: 0.4s;
+}
+.global-nav .nav-item.active a,
+.global-nav .nav-item a:hover
+{
+	background-color: #1cfdd8;
+	color:rgb(255, 48, 48);
+}
+.hidden
+{
+	display:none;
+}.footer
+{
+	width:100%;
+	padding:20px 0 30px;
+	background:#2d3d54 url("../images/NICK.png");
+	color:#fff;
+}
+.horizontal-list
+{
+	width:970px;
+	margin:0 auto;
+	text-align:center;
+	
+}
+.horizontal-list .horizontal-item
+{
+	display: inline-block;
+	padding:0 15px;
+	letter-spacing:1px;
+}
+.horizontal-list .horizontal-item + .horizontal-item
+{
+	border-left:1px solid #bbb;
+}
+.horizontal-item .horizontal-item a
+{
+	border-bottom:1px dashed #777;
+	color:rgb(247, 255, 131);
+	font-size:1.1rem;
+	transition:color 0.15s;
+}
+.horizontal-item .horizontal-item a:hover
+{
+	color:#ddd;
+}
+.copyright
+{
+	margin-top:30px;
+	text-align:center;
+	letter-spacing:1px;
+}
+.item
+{
+    width:180px;
+    margin-bottom:4px;
+    padding:8px;
+    border-bottom:3px solid;
+    border-radius:5px;
+    background-color:#fff;
+}
+.item .image
+{
+    display:block;
+    width: 100%;
+    height:109px;
+}
+.item .category 
+{
+    margin:15px 9px 10px;
+    color:#aaa;
+    letter-spacing:1px;
+    font-family:"Trebuchet MS","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+}
+.item .category::before 
+{
+    content:'';
+    display: inline-block;
+    width:19px;
+    height:19px;
+    margin-right:5px;
+    border:2px solid;
+    border-radius:50%;
+    vertical-align: -5px;
+}
+.item .description
+{
+    margin:10px;
+    line-height:1.5;
+}
+.item > a 
+{
+    display: block;
+    margin:-8px -8px -11px;
+    padding:8px 8px 11px;
+    border-radius:inherit;
+    color:#777;
+    transition: all 0.3s;
+}
+.item > a:hover 
+{
+    box-shadow:0 0 6px -1px rgbs(0,0,0,0.3);
+    opacity:0.8;
+}
+.item-maindish,
+.item-maindish .category::before
+{
+ border-color: #FF00FF
+}
+.item-appetizer,
+.item-appetizer .category::before
+{
+ border-color: rgb(20, 33, 207)
+}
+.item-column,
+.item-column .category::before
+{
+ border-color: rgb(218, 152, 29)
+}
+.item-breaktime,
+.item-breaktime .category::before
+{
+ border-color: rgb(189, 22, 22)
+}
+.item-1,
+.item-1 .category::before
+{
+ border-color: #FF00FF
+}
+.item-2,
+.item-2 .category::before
+{
+ border-color: rgb(20, 33, 207)
+}
+.item-3,
+.item-3 .category::before
+{
+ border-color: rgb(218, 152, 29)
+}
+.item-4,
+.item-4 .category::before
+{
+ border-color: rgb(189, 22, 22)
+}
+.item-5,
+.item-5 .category::before
+{
+ border-color: rgb(69, 233, 29)
+}
+.item-m
+{
+    width:364px;
+}
+.item-m .image
+{
+    height:146px;
+}
+.item-l
+{
+    width:732px;
+}
+.item-l .image
+{
+    height:403px;
+}
+.item-head
+{
+    width:100%;
+	height:603px;
+	margin-left: 10px;
+}
+.item-head .logo
+{
+	margin-top:300px;;
+}
+.item-footer
+{
+    width:100%;
+    background-color:#2d3d54;
+}
+.item-ll
+{
+    width:560px;
+}
+.item-ll .image
+{
+    height:315px;
+}
+
+.research_list
+{
+	margin:10px 15px;
+	
+}
+.research_list,
+.research_list ul
+{
+	list-style-type:none;
+	
+}
+.research_list .title
+{
+	margin:15px 0;
+	padding-left:3px;
+	border-left:5px solid #7ac1dd;
+	font-size:1.4rem;
+	line-height:1.2;
+	
+	
+}
+.fist_ul
+{
+	display:block;
+	float:left;
+	
+}
+.second_ul
+{
+	display:block;
+	float:left;
+	
+}
+.third_list
+{
+	display:block;
+	float:left;
+	
+}
+
+
